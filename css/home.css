@@ -1,0 +1,29 @@
+.homeColor {
+    color: rgb(190, 190, 190);
+}
+
+nav {
+    font-size: 1.2rem;
+    margin: auto;
+    padding: 1rem;;
+    border: 1px solid transparent;
+    background-color: rgba(216, 216, 216, 0.521);
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: rgb(184, 184, 184) 5px 5px 5px;
+    width: 15rem;
+    position: relative;
+    top: 1rem;
+    color: white;
+}
+
+main {
+    position: relative;
+    top: 2rem;
+    text-align: center;
+}
+
+.mainH2 {
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
