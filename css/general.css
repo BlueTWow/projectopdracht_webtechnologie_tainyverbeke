@@ -1,0 +1,12 @@
+:root {
+
+}
+
+body{
+    background-color: rgb(152, 152, 152);
+}
+
+header {
+    background-color: gray;
+    box-shadow: rgb(117, 117, 117) 5px 5px 5px;
+}
