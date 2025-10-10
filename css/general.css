@@ -9,6 +9,14 @@ body {
     padding: 0px;
 }
 
+.headerContainer {
+    display: flex;
+    .flixoraLogo {
+        height: 7rem;
+        width: 5rem;
+    }
+}
+
 header {
     background-color: rgba(223, 223, 223, 0.74);
     box-shadow: rgb(184, 184, 184) 5px 5px 5px;
@@ -25,9 +33,4 @@ footer {
     padding: 1rem;
     width: 100%;
     bottom: 0rem;
-}
-
-.flixoraTitel {
-    font-size: 2rem;
-    color: rgb(154, 205, 236);
 }

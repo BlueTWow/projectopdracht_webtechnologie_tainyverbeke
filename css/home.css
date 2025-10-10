@@ -2,10 +2,17 @@
     color: rgb(190, 190, 190);
 }
 
+
+.headerh1 {
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: rgb(89, 182, 101);
+    text-shadow: 2px 2px 2px rgb(194, 194, 194);
+}
 nav {
     font-size: 1.2rem;
     margin: auto;
-    padding: 1rem;;
+    padding: 1.5rem;
     border: 1px solid transparent;
     background-color: rgba(216, 216, 216, 0.521);
     text-align: center;
@@ -23,7 +30,24 @@ main {
     text-align: center;
 }
 
+.mainShopKnop {
+    padding: 2rem;
+    .mainShopLink {
+        border: 2px transparent red;
+        background-color: rgb(156, 226, 156);
+        border-radius: 0.2rem;
+        padding: 1rem;
+        color: white;
+        font-weight: bold;
+    }
+}
+
 .mainH2 {
-    font-size: 2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.5rem;
+}
+
+.mainBestVerkopend {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
 }
