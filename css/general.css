@@ -3,10 +3,11 @@ body {
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    min-height: 100dvh;
+    min-height: 100%;
+    width: 100%;
     position: relative;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .headerContainer {
@@ -32,5 +33,4 @@ footer {
     position: absolute;
     padding: 1rem;
     width: 100%;
-    bottom: 0rem;
 }
