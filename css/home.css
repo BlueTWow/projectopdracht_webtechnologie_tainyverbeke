@@ -1,27 +1,26 @@
-.homeColor {
-    color: rgb(190, 190, 190);
-}
-
-
 .headerh1 {
     padding-top: 2.5rem;
     font-size: 2rem;
     color: rgb(89, 182, 101);
     text-shadow: 2px 2px 2px rgb(194, 194, 194);
 }
+
+.homeColor {
+    color: rgb(136, 136, 136);
+}
+
 nav {
     font-size: 1.2rem;
-    margin: auto;
+    justify-self: center;
     padding: 1.5rem;
     border: 1px solid transparent;
     background-color: rgba(216, 216, 216, 0.521);
     text-align: center;
     border-radius: 0.5rem;
-    box-shadow: rgb(184, 184, 184) 5px 5px 5px;
     width: 15rem;
     position: relative;
     top: 1rem;
-    color: white;
+    color: rgb(93, 93, 93);
 }
 
 main {
@@ -33,7 +32,7 @@ main {
 .mainShopKnop {
     padding: 2rem;
     .mainShopLink {
-        background-color: rgb(156, 226, 156);
+        background-color: rgb(97, 161, 97);
         border-radius: 0.2rem;
         padding: 1rem;
         color: white;
@@ -60,6 +59,12 @@ font-size: 2rem;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 3rem;
+    @media only screen and (min-width: 1200px) {
+        .productDroomVanger {
+            height: 600px;
+            border: 2px solid red;
+    }
+}
 }
 
 .productminiatuurweerflesje {
