@@ -1,3 +1,7 @@
+.shopColor {
+    color: rgb(136, 136, 136);
+}
+
 .divTitleLogo {
     display: flex;
     justify-self: center;

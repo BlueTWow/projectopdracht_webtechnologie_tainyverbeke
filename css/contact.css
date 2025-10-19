@@ -1,0 +1,32 @@
+.contactColor {
+    color: rgb(136, 136, 136);
+}
+
+.divTitleLogo {
+    display: flex;
+    justify-self: center;
+    @media only screen and (min-width: 1200px) {
+        justify-self: left;
+    }
+
+}
+
+.divNav
+{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    background-color: rgba(216, 216, 216, 0.521);
+    text-align: center;
+    border-radius: 0.5rem;
+    width: 15rem;
+    margin-top: 1rem;
+    color: rgb(93, 93, 93);
+    display: grid;
+
+    @media only screen and (min-width: 1200px) {
+        width: 45rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        right: 5rem;
+    }
+}

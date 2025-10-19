@@ -1,35 +1,46 @@
-.headerh1 {
-    padding-top: 2.5rem;
-    font-size: 2rem;
-    color: rgb(89, 182, 101);
-    text-shadow: 2px 2px 2px rgb(194, 194, 194);
-}
-
 .homeColor {
     color: rgb(136, 136, 136);
 }
 
-nav {
-    font-size: 1.2rem;
+.divTitleLogo {
+    display: flex;
     justify-self: center;
-    padding: 1.5rem;
-    border: 1px solid transparent;
+    @media only screen and (min-width: 1200px) {
+        justify-self: left;
+    }
+
+}
+
+.divNav
+{
+    font-size: 1.2rem;
+    padding: 0.5rem;
     background-color: rgba(216, 216, 216, 0.521);
     text-align: center;
     border-radius: 0.5rem;
     width: 15rem;
-    position: relative;
-    top: 1rem;
+    margin-top: 1rem;
     color: rgb(93, 93, 93);
+    display: grid;
+
+    @media only screen and (min-width: 1200px) {
+        width: 45rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        right: 5rem;
+    }
 }
 
 main {
-    position: relative;
-    top: 2rem;
+    margin-top: 2rem;
+}
+
+.slogan {
     text-align: center;
 }
 
 .mainShopKnop {
+    justify-self: center;
     padding: 2rem;
     .mainShopLink {
         background-color: rgb(97, 161, 97);
@@ -42,69 +53,36 @@ main {
 
 .mainH2 {
 font-size: 2rem;
+text-align: center;
 }
 
 .mainBestVerkopend {
     display: flex;
     padding-top: 2rem;
     justify-content: center;
-    flex-wrap: wrap;
+
+        @media only screen and (min-width: 1200px) {
+            visibility: hidden;
+}
 }
 
 .productenBestVerkopend {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 3rem;
-    @media only screen and (min-width: 1200px) {
-        .productDroomVanger {
-            height: 600px;
-            border: 2px solid red;
-    }
-}
-}
-
-.productminiatuurweerflesje {
-    background-image: url(../assets/miniatuurweerflesje.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 300px;
-    height: 300px;
-    padding: 1rem;
-    border: 1px transparent black;
-    display: flex;
-    align-items: end;
-    border-radius: 1rem;
-    justify-self: center;
-    margin-top: 1rem;
+    margin-bottom: 2rem;
     
-    .info {
-            background-color: white;
-            border: 1px transparent white;
-            flex-grow: 1;
-            margin: 0.5rem;
-            background-color: rgb(255, 255, 255);
-            border-radius: 0.5rem;
-            padding: 0.3rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+    @media only screen and (min-width: 1200px) {
+
+            .productDroomVanger {
+            height: 650px;
+            background-size: cover;
+            background-position: center;
     }
-    h1 {
-        font-weight: bold;
-    }
-    h3 {
-        color: gray;
-    }
-    p {
-        color: rgb(72, 161, 72);
-        text-shadow: 1px 1px 1px rgb(112, 112, 112);
-        font-weight: bold;
-    }
-    }
+}
+}
 
     .productDroomVanger {
     background-image: url(../assets/droomvanger.jpg);
@@ -113,7 +91,6 @@ font-size: 2rem;
     width: 300px;
     height: 300px;
     padding: 1rem;
-    border: 1px transparent black;
     display: flex;
     align-items: end;
     border-radius: 1rem;
@@ -122,7 +99,6 @@ font-size: 2rem;
     
     .info {
             background-color: white;
-            border: 1px transparent white;
             flex-grow: 1;
             margin: 0.5rem;
             background-color: rgb(255, 255, 255);
@@ -142,6 +118,46 @@ font-size: 2rem;
         color: rgb(72, 161, 72);
         text-shadow: 1px 1px 1px rgb(112, 112, 112);
         font-weight: bold;
+    }
+    }
+
+.productminiatuurweerflesje {
+    background-image: url(../assets/miniatuurweerflesje.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    padding: 1rem;
+    display: flex;
+    align-items: end;
+    border-radius: 1rem;
+    justify-self: center;
+    margin-top: 1rem;
+
+    .info {
+            background-color: white;
+            flex-grow: 1;
+            margin: 0.5rem;
+            background-color: rgb(255, 255, 255);
+            border-radius: 0.5rem;
+            padding: 0.3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    }
+    h1 {
+        font-weight: bold;
+    }
+    h3 {
+        color: gray;
+    }
+    p {
+        color: rgb(72, 161, 72);
+        text-shadow: 1px 1px 1px rgb(112, 112, 112);
+        font-weight: bold;
+    }
+     @media only screen and (min-width: 1200px) {
+        order: 2
     }
     }
 
@@ -152,7 +168,6 @@ font-size: 2rem;
     width: 300px;
     height: 300px;
     padding: 1rem;
-    border: 1px transparent black;
     display: flex;
     align-items: end;
     border-radius: 1rem;
@@ -161,7 +176,6 @@ font-size: 2rem;
     
     .info {
             background-color: white;
-            border: 1px transparent white;
             flex-grow: 1;
             margin: 0.5rem;
             background-color: rgb(255, 255, 255);
